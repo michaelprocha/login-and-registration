@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InputText = styled.input.attrs(({$type}) => ({
   type: $type ? $type : "text"
   }))`
-    width: 317px;
+    width: 100%;
     height: 39px;
     padding: 8px 16px;
     background-color: ${({theme}) => theme.color.mediumGray};

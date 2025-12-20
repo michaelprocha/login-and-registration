@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Button = styled.button.attrs({type: "submit"})`
-    width: 317px;
+    width: 100%;
     height: 51px;
     background-color: ${({theme}) => theme.color.highlightGreen};
     display: flex;

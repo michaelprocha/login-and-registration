@@ -16,7 +16,7 @@ function Login() {
 	return (
 		<Main>
 			<ImageLogin />
-			<FlexContainer $direction="column" $padding="0 46px" $gap="24px">
+			<FlexContainer $direction="column" $padding="0 46px" $gap="24px" $pTablet={"0 25px"}>
 				<FlexForm onSubmit={(e) => sendForm(e)} $direction="column" $padding="0 0" $gap="32px">
 					<FlexContainer $direction="column" $padding="0 0" $gap="40px">
 						<TitleSubtitle textTitle={"Login"} textSubtitle={"Boas-vindas! Faça seu login."} />

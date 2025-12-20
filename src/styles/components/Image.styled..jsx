@@ -12,7 +12,7 @@ export const Picture = styled.picture.attrs({
 
 
 export const LoginImgDesktop = styled.source.attrs({
-    media: "(min-width: 1200px)", 
+    media: "(min-width: 1180px)", 
     srcSet: loginImgDesktop
 })``;
 
@@ -27,7 +27,7 @@ export const LoginImgMobile = styled.img.attrs({
 
 
 export const RegisterImgDesktop = styled.source.attrs({
-    media: "(min-width: 1200px)", 
+    media: "(min-width: 1180px)", 
     srcSet: registerImgDesktop
 })``;
 

@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import { Link } from "react-router";
 
-export const ForgotPassword = styled.a`
+export const ForgotPassword = styled(Link)`
     font-size: 15px;
     color: ${({theme}) => theme.color.offWhite};
     text-decoration: underline;
     cursor: pointer;
 `;
 
-export const LinkAccounts = styled.a`
+export const LinkAccounts = styled(Link)`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,11 +16,11 @@ export const LinkAccounts = styled.a`
     gap: 4px;
     font-size: 12.5px;
     color: ${({theme}) => theme.color.offWhite};
-    height: 100%;
+    min-height: 55px;
     cursor: pointer;
 `;
 
-export const LoginRegisterLink = styled.a`
+export const LoginRegisterLink = styled(Link)`
     color: ${({theme}) => theme.color.highlightGreen};
     font-size: 18px;
     display: flex;
