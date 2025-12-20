@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
-export const InputText = styled.input`
+export const InputText = styled.input.attrs(({$type}) => ({
+  type: $type ? $type : "text"
+  }))`
     width: 317px;
     height: 39px;
     padding: 8px 16px;
-    color: ${({theme}) => theme.color.darkGray};
+    background-color: ${({theme}) => theme.color.mediumGray};
     font-size: 15px;
+    color: ${({theme}) => theme.color.darkGray};
+    border-radius: 4px;
 `;
 
 export const HiddenCheckbox = styled.input.attrs({ type: "checkbox" })`

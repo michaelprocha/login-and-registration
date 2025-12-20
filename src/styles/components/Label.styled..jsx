@@ -12,6 +12,5 @@ export const LabelCheckBox = styled(Label)`
     font-size: 15px;
     display: flex;
     gap: 8px;
-    justify-content: space-between;
 `;
 

@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         margin: 0;
         font-family: "Prompt", sans-serif;
+        font-weight: 400;
     }
 
     body{

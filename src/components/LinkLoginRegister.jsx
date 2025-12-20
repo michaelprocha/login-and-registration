@@ -1,9 +1,9 @@
 import { LoginRegisterLink } from "../styles/components/Link.styled."
 import { LoginIcon, RegisterIcon } from "../styles/components/Icon.styled."
 
-function LinkLoginRegister({textLink, image}) {
+function LinkLoginRegister({textLink, image, justify}) {
 	return (
-		<LoginRegisterLink>
+		<LoginRegisterLink justify={justify}>
 			{textLink}
 			{image === "login" ? <LoginIcon /> : <RegisterIcon />}
 		</LoginRegisterLink>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const Button = styled.button.attrs({type: "submit"})`
     width: 317px;
     height: 51px;
     background-color: ${({theme}) => theme.color.highlightGreen};
@@ -12,7 +12,8 @@ export const Button = styled.button`
     border: solid 1px ${({theme}) => theme.color.highlightGreen};
     border-radius: 8px;
     font-size: 18px;
-    font-weight: medium;
+    font-weight: 600;
+    cursor: pointer;
 
     &:hover{
         background-color: transparent;
