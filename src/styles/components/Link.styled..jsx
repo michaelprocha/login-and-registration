@@ -16,5 +16,7 @@ export const LoginRegisterLink = styled.a`
     color: ${({theme}) => theme.color.highlightGreen};
     font-size: 18px;
     display: flex;
-    gap: 2px;
+    flex-direction: ${({direction}) => direction ? direction : "row"};
+    gap: 8px;
+    cursor: pointer;
 `;

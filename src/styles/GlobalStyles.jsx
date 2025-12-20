@@ -14,6 +14,9 @@ export const GlobalStyles = createGlobalStyle`
         background-image: url('/images/Símbolo.svg'), url('/images/Símbolo.svg');
         background-repeat: no-repeat, no-repeat;
         background-position: 10% top, 90% bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 `;
