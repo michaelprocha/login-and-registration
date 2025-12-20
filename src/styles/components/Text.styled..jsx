@@ -40,6 +40,17 @@ export const AccountsParagraph = styled.p`
 			background-color: ${({ theme }) => theme.color.offWhite};
 		}
 	}
+
+	@media (max-width: 768px) {
+		&::before,
+		&::after {
+			content: "";
+			flex: 1;
+			height: 1px;
+			width: 45px;
+			background-color: ${({ theme }) => theme.color.offWhite};
+		}
+	}
 `;
 
 export const RegisterLoginTitle = styled.h4`

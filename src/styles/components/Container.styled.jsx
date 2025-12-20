@@ -20,6 +20,15 @@ export const Main = styled.main`
 		padding: 56px 84px;
 		margin: 50px 0;
 	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		max-width: 328px;
+		max-height: 1187px;
+		align-items: flex-start;
+		padding: 32px 16px;
+		margin: 50px 0;
+	}
 `;
 
 export const FlexContainer = styled.div`
@@ -33,6 +42,10 @@ export const FlexContainer = styled.div`
 
 	@media (max-width: 1180px) {
 		padding: ${({$pTablet}) => ($pTablet ? $pTablet : "0 0")};
+	}
+
+	@media (max-width: 768px) {
+		padding: 0 0;
 	}
 `;
 
