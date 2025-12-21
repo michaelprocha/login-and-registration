@@ -58,5 +58,6 @@ export const RegisterLoginTitle = styled.h4`
 	line-height: 150%;
 	color: ${({ theme }) => theme.color.offWhite};
 	text-align: center;
-	width: 100%;
+	width: ${({$width}) => $width === "100%" ? "100%" : "auto"};
+	white-space: nowrap;
 `;

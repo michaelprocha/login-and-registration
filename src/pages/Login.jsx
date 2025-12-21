@@ -42,6 +42,7 @@ function Login() {
 						textLink={"Crie seu cadastro!"}
 						gap={"8px"}
 						justify={"center"}
+						full={"100%"}
 					/>
 				</FlexContainer>
 			</FlexContainer>

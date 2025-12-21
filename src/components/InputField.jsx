@@ -4,8 +4,6 @@ import { InputText } from "../styles/components/Input.styled."
 import LabelCheckBoxJsx from "./LabelCheckboxJsx"
 
 function InputField({textLabel, type = "text", checkbox = false, hasLink = false}) {
-  console.log(type)
-
   return (
     <FlexContainer $direction={"column"} $gap={"8px"}>
         {checkbox ? <>

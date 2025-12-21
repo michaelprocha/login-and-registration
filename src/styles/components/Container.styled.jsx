@@ -4,7 +4,7 @@ export const Main = styled.main`
 	height: 100%;
 	width: 100%;
 	max-width: 996px;
-	max-height: 748px;
+	max-height: 795px;
 	background-color: ${({ theme }) => theme.color.darkGray};
 	border: solid 1px ${({ theme }) => theme.color.graphite};
 	border-radius: 32px;
@@ -15,7 +15,7 @@ export const Main = styled.main`
 	@media (max-width: 1180px) {
 		flex-direction: column;
 		max-width: 705px;
-		max-height: 1187px;
+		max-height: 1234px;
 		align-items: flex-start;
 		padding: 56px 84px;
 		margin: 50px 0;
@@ -46,6 +46,7 @@ export const FlexContainer = styled.div`
 
 	@media (max-width: 768px) {
 		padding: 0 0;
+		flex-direction: ${({$directionM, $direction}) => $directionM ? $directionM : $direction};
 	}
 `;
 
