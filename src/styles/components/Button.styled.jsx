@@ -1,0 +1,22 @@
+import styled from "styled-components";
+
+export const Button = styled.button.attrs({type: "submit"})`
+    width: 100%;
+    height: 51px;
+    background-color: ${({theme}) => theme.color.highlightGreen};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ${({theme}) => theme.color.petrolGreen};
+    gap: 2px;
+    border: solid 1px ${({theme}) => theme.color.highlightGreen};
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover{
+        background-color: transparent;
+        color: ${({theme}) => theme.color.highlightGreen};
+    }
+`;
